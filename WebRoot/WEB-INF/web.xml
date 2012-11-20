@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<servlet>
+    	<servlet-name>PositionSave</servlet-name>
+    	<servlet-class>com.servlet.PositionSave</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>PositionSave</servlet-name>
+    	<url-pattern>/servlet/PositionSave</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    	<servlet-name>Search</servlet-name>
+    	<servlet-class>com.servlet.Search</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>Search</servlet-name>
+    	<url-pattern>/servlet/Search</url-pattern>
+  	</servlet-mapping>
+  
+  <servlet>
+    	<servlet-name>Download</servlet-name>
+    	<servlet-class>com.servlet.Download</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>Download</servlet-name>
+    	<url-pattern>/servlet/Download</url-pattern>
+  	</servlet-mapping>
+  	
+  <servlet>
+    <servlet-name>UpLoadImage</servlet-name>
+    <servlet-class>com.servlet.UpLoadImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpLoadImage</servlet-name>
+    <url-pattern>/servlet/UpLoadImage</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Upload_user</servlet-name>
+    <servlet-class>com.servlet.Upload_user</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Upload_user</servlet-name>
+    <url-pattern>/servlet/Upload_user</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Save_user_upload</servlet-name>
+    <servlet-class>com.servlet.Save_user_upload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Save_user_upload</servlet-name>
+    <url-pattern>/servlet/Save_user_upload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ChangeImage</servlet-name>
+    <servlet-class>com.servlet.ChangeImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeImage</servlet-name>
+    <url-pattern>/servlet/ChangeImage</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>SendMail</servlet-name>
+    <servlet-class>com.servlet.SendMail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendMail</servlet-name>
+    <url-pattern>/servlet/SendMail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>StopSendMail</servlet-name>
+    <servlet-class>com.servlet.StopSendMail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StopSendMail</servlet-name>
+    <url-pattern>/servlet/StopSendMail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SaveImage</servlet-name>
+    <servlet-class>com.servlet.SaveImage</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>SaveImage</servlet-name>
+    <url-pattern>/servlet/SaveImage</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>Convert</servlet-name>
+    <servlet-class>com.servlet.Convert</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>Convert</servlet-name>
+    <url-pattern>/servlet/Convert</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>PraseMimeMessage</servlet-name>
+    <servlet-class>com.servlet.PraseMimeMessage</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>PraseMimeMessage</servlet-name>
+    <url-pattern>/servlet/PraseMimeMessage</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <servlet-name>StopReading</servlet-name>
+    <servlet-class>com.servlet.StopReading</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>StopReading</servlet-name>
+    <url-pattern>/servlet/StopReading</url-pattern>
+  </servlet-mapping>
+  
+          <servlet>
+    <servlet-name>StopConvert</servlet-name>
+    <servlet-class>com.servlet.StopConvert</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>StopConvert</servlet-name>
+    <url-pattern>/servlet/StopConvert</url-pattern>
+  </servlet-mapping>
+  
+            <servlet>
+    <servlet-name>AddAdmin</servlet-name>
+    <servlet-class>com.servlet.AddAdmin</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>AddAdmin</servlet-name>
+    <url-pattern>/servlet/AddAdmin</url-pattern>
+  </servlet-mapping>
+  
+              <servlet>
+    <servlet-name>AdminPwdModify</servlet-name>
+    <servlet-class>com.servlet.AdminPwdModify</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>AdminPwdModify</servlet-name>
+    <url-pattern>/servlet/AdminPwdModify</url-pattern>
+  </servlet-mapping>
+  
+                <servlet>
+    <servlet-name>UserModify</servlet-name>
+    <servlet-class>com.servlet.UserModify</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>UserModify</servlet-name>
+    <url-pattern>/servlet/UserModify</url-pattern>
+  </servlet-mapping>
+  
+                  <servlet>
+    <servlet-name>ModifyEmail</servlet-name>
+    <servlet-class>com.servlet.ModifyEmail</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>ModifyEmail</servlet-name>
+    <url-pattern>/servlet/ModifyEmail</url-pattern>
+  </servlet-mapping>
+  
+                    <servlet>
+    <servlet-name>StopCapturing</servlet-name>
+    <servlet-class>com.servlet.StopCapturing</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>StopCapturing</servlet-name>
+    <url-pattern>/servlet/StopCapturing</url-pattern>
+  </servlet-mapping>
+  
+                      <servlet>
+    <servlet-name>Change2Start</servlet-name>
+    <servlet-class>com.servlet.Change2Start</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>Change2Start</servlet-name>
+    <url-pattern>/servlet/Change2Start</url-pattern>
+  </servlet-mapping>
+  
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

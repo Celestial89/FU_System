@@ -1,0 +1,38 @@
+a:link 
+{ 
+	text-decoration: none;
+	color: blue
+}
+a:active 
+{ 
+	text-decoration:blink
+}
+a:hover 
+{ 
+	text-decoration:underline;
+	color: red
+} 
+a:visited 
+{
+	text-decoration: none;
+	color: #003366;
+}
+.a2:link 
+{ 
+	text-decoration: none;
+	color: blue
+}
+.a2:active 
+{ 
+	text-decoration:blink
+}
+.a2:hover 
+{ 
+	text-decoration:underline;
+	color: red
+}
+.a2:visited 
+{ 
+	text-decoration: none;
+	color: green
+}
